@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FourthFragment"
+    android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/tvUserInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="User Adress Information"
+    android:textColor="@color/purple_200"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textAlignment="center"/>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvLaneOne"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Lane 1"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtLaneOne"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="House No."
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvLaneTwo"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Lane 2"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtLaneTwo"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Area"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvLocality"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Locality"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtLocality"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Locality"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvPinCode"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="pin code"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtPinCode"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Pin Code"
+                android:inputType="number"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvCity"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="City"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtCity"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="City"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="State"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtState"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="State"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvCountry"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Country"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtCountry"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Country"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btClick"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Next" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

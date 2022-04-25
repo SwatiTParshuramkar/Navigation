@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".Fragment.ThirdFragment">
+
+    <TextView
+        android:id="@+id/tvBasicInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Basic Information"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="First Name"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Last Name"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="E-mail"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtMail"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Enter the E-mail"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Phone"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tvPassword"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_marginTop="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Next" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
